@@ -1,0 +1,30 @@
+{
+  "name": "secure-ejs-mongodb",
+  "version": "1.0.0",
+  "description": "A secure web application with authentication, role-based access, and password reset using EJS, MongoDB Atlas, and Express.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.10.1",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

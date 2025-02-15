@@ -1,0 +1,12 @@
+<!-- views/profile.ejs -->
+<h2>Profile</h2>
+<p>Username: <%= user.username %></p>
+<p>Email: <%= user.email %></p>
+<form action="/profile/update" method="POST">
+    <input type="text" name="username" value="<%= user.username %>" required>
+    <input type="email" name="email" value="<%= user.email %>" required>
+    <button type="submit">Update Profile</button>
+</form>
+<form action="/profile/delete" method="POST">
+    <button type="submit">Delete Account</button>
+</form>
